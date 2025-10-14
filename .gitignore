@@ -1,0 +1,94 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de compilación o build (si se usan más adelante)
+dist/
+build/
+.tmp/
+.cache/
+out/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# =====================================================
+# ⚙️ CONFIGURACIONES LOCALES
+# =====================================================
+
+# Configuración del entorno local o variables privadas
+.env
+.env.local
+.env.*.local
+
+# Configuraciones de IDEs y editores
+.vscode/
+.idea/
+*.code-workspace
+
+# =====================================================
+# 🧪 ARCHIVOS DE TEST Y COBERTURA (si agregas pruebas)
+# =====================================================
+
+coverage/
+.nyc_output/
+jest-cache/
+jest-results/
+
+# =====================================================
+# 🪄 LOGS Y ERRORES
+# =====================================================
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================================================
+# 📦 ARCHIVOS DE PRODUCCIÓN / DESPLIEGUE
+# =====================================================
+
+# Si usas Docker en el futuro
+docker-compose.override.yml
+
+# Si generas archivos comprimidos
+*.zip
+*.tar
+*.gz
+
+# =====================================================
+# 📸 ARCHIVOS TEMPORALES DEL PROYECTO
+# =====================================================
+
+# Archivos creados durante la ejecución del servidor
+*.pid
+*.seed
+*.pid.lock
+
+# Capturas o pruebas locales (si las guardas fuera de /docs)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+
+# =====================================================
+# 💻 FRONTEND (por si más adelante usas build tools)
+# =====================================================
+
+# Si llegas a usar herramientas de empaquetado (Vite, React, Webpack)
+.cache/
+node_modules/
+npm-debug.log
+*.lock
+*.map
+
+# =====================================================
+# 🧰 DOCUMENTACIÓN LOCAL
+# =====================================================
+
+# Archivos de respaldo o versiones intermedias
+*.bak
+*.swp
+*.tmp
+~$*
