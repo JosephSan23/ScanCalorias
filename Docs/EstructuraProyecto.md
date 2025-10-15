@@ -9,3 +9,11 @@
 ## Body-parser: Sirve para leer el cuerpo de las peticiones.
 
 ## cors: Habilita la comunicacion entre el frontend y el backend, aunque esten en diferentes dominios.
+
+## En el package.json usamos el "type": "module" para indicar que estamos usando la sintaxis moderna y no la antigua que seria Habilita import/export
+
+## import express = requiere("express");
+
+## Sino la que se usa actualmente
+
+## import express from "express";
