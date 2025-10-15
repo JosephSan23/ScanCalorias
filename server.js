@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Indicar la ruta principal
 // Cuando alguien visite http://localhost:3000/ se le enviara el archivo index.html
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
 // Ruta / analyze (recibe imagenes)
